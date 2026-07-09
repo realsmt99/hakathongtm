@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# runtime filesystem store: cached enrichment (real emails/phones), donor
+# uploads, run records, outreach logs — PII, not for the repo
+/data
